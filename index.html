@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>todos</h1>
+    <form id="form">
+        <input
+            type="text"
+            id="input"
+            class="input"
+            placeholder="What should be done?"
+            autocomplete="off"
+        />
+        <ul class="todos" id="todos">
+
+
+        </ul>
+        <ul class="todos" id="completed-todos">
+
+
+        </ul>
+        <ul class="todos" id="deleted-todos">
+
+
+        </ul>
+    </form>
+    <div class="sort-btn-c">
+        <input type="button" class="sort-btn" value="All Todos" id="all-todos">
+        <input type="button" class="sort-btn" value="Completed" id="completed">
+        <input type="button" class="sort-btn" value="Deleted" id="deleted">
+    </div>
+    <div class="indication">
+        <small>Right click to remove the todo.</small>
+        <br>
+        <small class="indication">Left click to mark the todo as done.</small>
+    </div>
+</body>
+</html>
